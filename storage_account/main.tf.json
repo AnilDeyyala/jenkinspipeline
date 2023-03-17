@@ -1,0 +1,22 @@
+[
+    {
+        "provider": {
+            "azure": {
+                "region": "ap-south-1"
+            }
+        }
+    },
+    {
+        "resource": {
+            "azurerm_storage_account": {
+                "storageacc": {
+                    "name": "terraformuiappstrg",
+                    "resource_group_name": "Devops-RG",
+                    "location": "eastus",
+                    "account_tier": "Standard",
+                    "account_replication_type": "LRS"
+                }
+            }
+        }
+    }
+]
