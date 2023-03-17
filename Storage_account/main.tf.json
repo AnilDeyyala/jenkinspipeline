@@ -1,0 +1,16 @@
+[
+    {
+        "provider": {
+            "azure": {
+                "region": "ap-south-1"
+            }
+        }
+    },
+    {
+        "resource": {
+            "azurerm_storage_account": {
+                "storageacc": {}
+            }
+        }
+    }
+]
